@@ -174,7 +174,7 @@ def reyna():
     text_output = Label(window, text="OK! Now go play and carry your team!", fg='black', font=("Helvetica", 11))
     text_output.grid(row=13, column=0, padx=170, sticky='W')
     while True:
-        pg.moveTo(750, 1015)
+        pg.moveTo(959, 924)
         pg.doubleClick()
         pg.PAUSE=0.035
         pg.moveTo(954, 812)
